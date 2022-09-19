@@ -1,0 +1,13 @@
+spring:
+  application: rabbitmq
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: adim
+    password: adim
+server:
+  port: 9690
+
+cloud:
+  rabbitmq:
+    exchange: "amq.direct"
